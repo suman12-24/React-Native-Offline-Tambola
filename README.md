@@ -1,3 +1,132 @@
+
+# React Native Offline Tambola
+
+An **offline-first Tambola (Housie) game** built with **React Native**, designed for local multiplayer gameplay without any internet dependency. The application supports ticket generation, number calling, and rule-based win validation, making it ideal for family gatherings, classrooms, and small events.
+
+---
+
+## ✨ Features
+
+* 📱 Cross-platform support (Android & iOS)
+* 🚫 100% offline gameplay (no network required)
+* 🎟️ Automatic Tambola ticket generation
+* 🔢 Randomized number calling (1–90)
+* ✅ Real-time ticket marking and validation
+* 🏆 Support for common winning patterns:
+
+  * Early Five
+  * Top Line
+  * Middle Line
+  * Bottom Line
+  * Full House
+* 🧠 Local state management
+* 🎨 Clean and responsive UI
+
+---
+
+## 🛠️ Tech Stack
+
+* **React Native**
+* **JavaScript (ES6+)**
+* **React Hooks**
+* **Local state / AsyncStorage** (if persistence is enabled)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+* Node.js (>= 16)
+* npm or yarn
+* React Native CLI or Expo CLI
+* Android Studio / Xcode (for emulators)
+
+---
+
+### Installation
+
+```bash
+git clone https://github.com/suman12-24/React-Native-Offline-Tambola.git
+cd react-native-offline-tambola
+npm install
+```
+
+or
+
+```bash
+yarn install
+```
+
+---
+
+### Running the App
+
+#### Android
+
+```bash
+npx react-native run-android
+```
+
+#### iOS
+
+```bash
+npx react-native run-ios
+```
+
+---
+
+## 🎮 How to Play
+
+1. Launch the app and start a new game
+2. Generate Tambola tickets for players
+3. Begin number calling (1–90)
+4. Players mark numbers on their tickets
+5. Claim winning patterns
+6. The app validates claims automatically
+
+---
+
+## 🧩 Future Enhancements
+
+* 🎤 Voice-based number calling
+* 👥 Player management screen
+* 💾 Save & resume games
+* 🧾 Export or share tickets
+* 🌙 Dark mode support
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add your feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+Developed using React Native for offline-first mobile gameplay.
+
+---
+
+## ⭐ Support
+
+If you find this project useful, please consider giving it a star on GitHub.
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
